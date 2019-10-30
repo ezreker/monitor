@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>Label</key>
+	<string>directory.monitor</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/brandirosenbluth/miniconda3/bin/python3</string>
+		<string>/Users/brandirosenbluth/Documents/Malwarebytes/monitor.py</string>
+	</array>
+	<key>StandardErrorPath</key>
+	<string>/var/log/python_script.error</string>
+	<key>KeepAlive</key>
+	<true/>
+</dict>
+</plist>
